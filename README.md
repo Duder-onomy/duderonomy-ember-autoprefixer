@@ -1,10 +1,14 @@
 duderonomy-ember-autoprefixer
 ==============================================================================
 
+[![Build Status](https://travis-ci.org/Duder-onomy/duderonomy-ember-autoprefixer.svg?branch=master)](https://travis-ci.org/Duder-onomy/duderonomy-ember-autoprefixer)
+
 This is basically ember-cli-autoprefixer, but with updated dependencies.
 You should probably use ^ and I might deprecate this in the future if ember-cli-autoprefixer updates its deps.
 
 I really only intend to use this myself. If you like it.. PR some good stuff. Maybe I will rename it?
+
+I basically copy pasted the pertinent bits form ember-cli-autoprefixer into a brand new ember-cli addon. ( so I could use the latest stuff )
 
 Installation
 ------------------------------------------------------------------------------

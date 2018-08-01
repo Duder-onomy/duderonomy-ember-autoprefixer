@@ -12,7 +12,7 @@ module.exports = {
 
     this._super.included.apply(this, arguments);
 
-    this.options = defaults(this.app.options.autoprefixer || {}, {
+    this.autoprefixerOptions = defaults(this.app.options.autoprefixer || {}, {
       browsers: this.project.targets && this.project.targets.browsers,
       enabled: true
     });
@@ -23,7 +23,7 @@ module.exports = {
 
   postprocessTree: function(type, tree) {
     if (type === 'css' && this.enabled) {
-      tree = new Autoprefixer(tree, this.options);
+      tree = new Autoprefixer(tree, this.autoprefixerOptions);
     }
 
     return tree;
