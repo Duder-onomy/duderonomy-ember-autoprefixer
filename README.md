@@ -8,7 +8,9 @@ You should probably use ^ and I might deprecate this in the future if ember-cli-
 
 I really only intend to use this myself. If you like it.. PR some good stuff. Maybe I will rename it?
 
-I basically copy pasted the pertinent bits form ember-cli-autoprefixer into a brand new ember-cli addon. ( so I could use the latest stuff )
+I basically copy pasted the pertinent bits from ember-cli-autoprefixer into a brand new ember-cli addon. ( so I could use the latest stuff )
+
+I (we?) DO NOT SUPPORT NODE 4, min version node 8.
 
 Installation
 ------------------------------------------------------------------------------
