@@ -10,6 +10,7 @@ module.exports = function() {
   ]).then((urls) => {
     return {
       useYarn: true,
+      useVersionCompatibility: true,
       scenarios: [
         {
           name: 'ember-lts-2.12',

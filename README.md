@@ -1,15 +1,17 @@
-ember-autoprefixer
+duderonomy-ember-autoprefixer
 ==============================================================================
 
-[Short description of the addon.]
+This is basically ember-cli-autoprefixer, but with updated dependencies.
+You should probably use ^ and I might deprecate this in the future if ember-cli-autoprefixer updates its deps.
+
+I really only intend to use this myself. If you like it.. PR some good stuff. Maybe I will rename it?
 
 Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install ember-autoprefixer
+ember install duderonomy-ember-autoprefixer
 ```
-
 
 Usage
 ------------------------------------------------------------------------------
@@ -23,7 +25,7 @@ Contributing
 ### Installation
 
 * `git clone <repository-url>`
-* `cd ember-autoprefixer`
+* `cd duderonomy-ember-autoprefixer`
 * `yarn install`
 
 ### Linting

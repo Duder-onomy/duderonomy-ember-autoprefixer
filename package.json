@@ -1,5 +1,5 @@
 {
-  "name": "ember-autoprefixer",
+  "name": "duderonomy-ember-autoprefixer",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
@@ -19,7 +19,9 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0"
+    "broccoli-autoprefixer": "Duder-onomy/broccoli-autoprefixer#master",
+    "ember-cli-babel": "^6.6.0",
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -50,6 +52,9 @@
     "node": "^4.5 || 6.* || >= 7.*"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "versionCompatibility": {
+      "ember": ">2.18.2"
+    }
   }
 }
