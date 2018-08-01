@@ -55,6 +55,10 @@
     "configPath": "tests/dummy/config",
     "versionCompatibility": {
       "ember": ">2.18.2"
-    }
+    },
+    "before": [
+      "broccoli-asset-rev",
+      "ember-cli-sri"
+    ]
   }
 }
