@@ -1,7 +1,7 @@
 duderonomy-ember-autoprefixer
 ==============================================================================
 
-[![Build Status](https://travis-ci.org/Duder-onomy/duderonomy-ember-autoprefixer.svg?branch=master)](https://travis-ci.org/Duder-onomy/duderonomy-ember-autoprefixer)
+[![Build Status](https://travis-ci.org/Duder-onomy/duderonomy-ember-autoprefixer.svg?branch=master)](https://travis-ci.org/Duder-onomy/duderonomy-ember-autoprefixer) [![Greenkeeper badge](https://badges.greenkeeper.io/Duder-onomy/duderonomy-ember-autoprefixer.svg)](https://greenkeeper.io/)
 
 This is basically ember-cli-autoprefixer, but with updated dependencies.
 You should probably use ^ and I might deprecate this in the future if ember-cli-autoprefixer updates its deps.
