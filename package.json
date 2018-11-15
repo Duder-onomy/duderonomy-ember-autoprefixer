@@ -14,7 +14,6 @@
   "repository": "github:Duder-onomy/duderonomy-ember-autoprefixer",
   "scripts": {
     "build": "ember build",
-    "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
     "start": "ember serve",
     "test": "ember try:each"
   },
@@ -28,7 +27,7 @@
     "ember-ajax": "^4.0.0",
     "ember-cli": "~3.5.0",
     "ember-cli-dependency-checker": "^3.0.0",
-    "ember-cli-eslint": "^4.2.1",
+    "ember-cli-eslint": "^5.0.0",
     "ember-cli-htmlbars": "^3.0.0",
     "ember-cli-htmlbars-inline-precompile": "^2.0.0",
     "ember-cli-inject-live-reload": "^2.0.1",

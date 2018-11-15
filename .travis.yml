@@ -37,7 +37,6 @@ before_script:
   - ./node_modules/.bin/greenkeeper-lockfile-update
 
 script:
-  - yarn lint:js
   - yarn run $SCRIPT
 
 after_script:
