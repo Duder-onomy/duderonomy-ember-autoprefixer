@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "broccoli-autoprefixer": "Duder-onomy/broccoli-autoprefixer#update-deps",
-    "ember-cli-babel": "^7.1.0",
+    "ember-cli-babel": "7.4.2",
     "lodash": "^4.17.10"
   },
   "devDependencies": {
